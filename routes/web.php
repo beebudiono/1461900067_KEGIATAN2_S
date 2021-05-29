@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'TugasPraktikum2Controller@tugas_praktikum_2')->name('tugas.praktikum_2');
