@@ -18,13 +18,13 @@
 
     <title>Tugas Praktikum 2</title>
   </head>
-  <body>
+  <body style=" background-color: #ff0000; ">
     {{-- Select --}}
     <div class="container" style="margin-top: 10px;">
         <div class="row">   
             <div class="col-lg-12">
                 <div class="card">
-                    <div class="card-header">Daftar Guru</div>
+                    <div class="card-header"style=" background-color: #33cc33; ">Daftar Guru</div>
                     <div class="card-body">
                         <table data-toggle="table">
                         <thead>
@@ -63,7 +63,7 @@
         <div class="row">   
             <div class="col-lg-12">
                 <div class="card">
-                    <div class="card-header">Daftar Guru, Mata Pelajaran, dan Kelas</div>
+                    <div class="card-header"style=" background-color: #33cc33; ">Daftar Guru, Mata Pelajaran, dan Kelas</div>
                     <div class="card-body">
                         <form class="example">
                             <input type="text" placeholder="Search.." name="search">
